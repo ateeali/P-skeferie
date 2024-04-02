@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px; /* Set a specific width for the images */
+    height: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+/* Ekstra styling for spesifikke elementer */
+h2:nth-of-type(odd) {
+    color: #cc6600; /* Oransje farge for oddetall overskrifter */
+}
+
+h2:nth-of-type(even) {
+    color: #0099cc; /* Blå farge for partall overskrifter */
+}
